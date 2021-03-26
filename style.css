@@ -1,0 +1,31 @@
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+svg#parallel .axis-x path {
+    stroke: none;
+}
+svg#parallel .axis-x line {
+    stroke: none;
+}
+svg#parallel .axis-x text {
+    font-size: 15px;
+    font-weight: bold;
+    fill: seagreen;
+}
+
+g.lines path {
+    fill: none;
+    stroke: rgba(120, 120, 120, 0.7);
+    stroke-width: 2px;
+    mix-blend-mode: overlay;
+}
+
+svg#sankey rect {
+    fill: rgba(120, 120, 120, 0.7);
+}
+svg#sankey path {
+    fill: none;
+    stroke: rgba(120, 120, 120, 0.4);
+}
